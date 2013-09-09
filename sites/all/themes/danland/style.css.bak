@@ -445,20 +445,17 @@ background: transparent;
 -------------------------------------------------------------- */
 
 #slideshow-wrapper{
-position: relative;
-top: -100px;
-left: 0px;
 width:100%;
 background: transparent url(images/slideshow-shadow.gif) no-repeat center bottom;
-height:695px;
-margin-bottom:-145px;
-z-index: -1;
+height:420px;
+margin-bottom:-45px;
+margin-top:14px;
 }
 
 .slideshow-inner{
-width:1600px;
+width:950px;
 margin:0 auto;
-height:630px;
+height:355px;
 position:relative;
 z-index:1;
 overflow: hidden;
@@ -472,8 +469,8 @@ z-index:4;
 }
 
 .slideshow {
-width:1600px;
-height:630px;
+width:950px;
+height:355px;
 position:relative;
 z-index:2;
 overflow: hidden;
